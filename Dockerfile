@@ -88,7 +88,8 @@ RUN echo "session.cookie_httponly = on" >> /etc/php/${PHP_VERSION}/apache2/php.i
 # Copiar e executar o script de inicialização para instalação e inicialização do GLPI
 COPY scripts/glpi-start.sh /usr/local/bin/
 
-RUN chmod +x /usr/local/bin/glpi-start.sh
+RUN chmod +x /usr/local/bin/glpi-start.sh \
+    && mkdir -p ${GLPI_VAR_DIR}
 
 # RUN /usr/local/bin/glpi-criar-diretorios.sh \
 #    && /usr/local/bin/glpi-configurar-banco.sh
