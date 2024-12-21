@@ -1,4 +1,4 @@
-![GLPI Logo](https://raw.githubusercontent.com/glpi-project/glpi/master/pics/logos/logo-GLPI-250-black.png](https://raw.githubusercontent.com/glpi-project/glpi/refs/heads/main/public/pics/logos/logo-GLPI-250-grey.png)
+![GLPI Logo](https://raw.githubusercontent.com/glpi-project/glpi/refs/heads/main/public/pics/logos/logo-GLPI-250-grey.png)
 ## GLPI Containers
 
 Arquivos de manifesto para realizar build e deploy do GLPI em containers usando o Docker.
