@@ -14,9 +14,7 @@ https://github.com/glpi-project/glpi
 
 ## Suporte:
 
-https://www.fcti.com.br
 
-contato@fcti.com.br
 
 
 ## Variaveis de Ambiente (Environments):
